@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Royalacid";
+    src:url('Royalacid.ttf');
+}
+
+* {
+    color: darkblue !important;
+    background: gray;
+}
+
+p {
+    font-weight: normal; /* normal (400), bold (700), bolder, lighter
+    font-family: 'Royalacid', Arial, sans-serif; /* cria hierarquia de fontes através de virgulas */
+    font-style: italic;
+    text-align: left; /* right, center, justify */
+    text-indent: 50px;
+    letter-spacing: 0,5px; /* distância entre cada uma das letras */
+    text-transform: capitalize; /* uppercase - lowercase */
+    text-decoration: underline orange wavy;
+    /* TEXT DECORATION
+		[line: underline, overline, line-through]
+		[color: rgb, rgba, hex, ou nome da cor]
+		[style: solid, wavy, dotted, dashed, double]
+    */
+    line-height: 20px;
+}

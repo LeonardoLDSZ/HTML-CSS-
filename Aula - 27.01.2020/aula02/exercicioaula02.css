@@ -1,0 +1,30 @@
+h1 {
+color:red;
+font-weight: bolder;
+}
+
+
+i {
+font-weight: 200;
+}
+a:link {
+    color:red;
+    font-weight: bolder;
+}
+
+a:visited {
+    color:gray;
+}
+
+a:active {
+    color:blue;
+}
+
+a {
+    text-decoration: underline red dotted;
+    line-height: 100px;
+}
+
+MARK {
+        color-interpolation-filters: yellow;
+}

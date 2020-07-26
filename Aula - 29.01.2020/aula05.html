@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Aula 05</title>
+    <link rel="stylesheet" type="text/css" href="aula05.css">
+</head>
+
+<body>
+<!-- Formulários em HTML -->
+<form name="Formulario_cliente" method="GET" action="https://google.com"> <!-- GET POST PUT DELETE -->
+    <!-- LABEL = link do nome do campo com o campo -->
+    <label for="inputnome">Nome:</label>
+    <input type="text" name="nome" id="inputnome" placeholder="Ex: Fulano Ciclano" value="João">
+    <br><br>
+    
+    <label for="inputsenha">Senha:</label>
+    <input type="password" name="senha" id="inputsenha" placeholder="Ex:*****" disabled="" readonly="">
+    <!-- Disabe = Desabilita o campo e não envia as informações com o formulário @ Readonly = Desabilita
+    o campo e envia as informações -->
+    <br><br>
+    
+    <label for="inputemail">E-mail:</label>
+    <input type="email" name="email" id="inputemail" placeholder="Ex: beltran@gmail.com" required="">
+    <br><br>
+    
+    <label for="inputnrsorte">Número da sorte:</label>
+    <input type="number" name="nr_sorte" id="inputnrsorte" step="3" min="9" max="50">
+    <br><br>
+
+
+    <label for="inputcorfavorita">Cor Favorita:</label>
+    <input type="color" name="cor_favorita" id="inputcorfavorita" value="#00ff00">
+    <br><br>
+
+    <label for="inputdtnascimento">Data de Nascimento:</label>
+    <input type="date" name="dt_nascimento" id="inputdtnascimento" min="#1980-01-01" max="2010-01-01">
+    <br><br>
+
+    <label for="inputdtcadastro">Data de Cadastro:</label>
+    <input type="datetime-local" name="dt_cadastro" id="inputdtcadastro">
+    <br><br>
+
+    <label for="inputhracorda">Hora que acordo:</label>
+    <input type="time" name="hr_acorda" id="inputhracorda">
+    <br><br>
+
+    <label for="inputsatisfacao">Satisfação:</label>
+    <input type="range" name="satisfacao" id="inputsatisfacao" min="0" max="10" value="0">
+    <br><br>
+
+    <p>Genero:</p>
+    <input type="radio" name="genero" value="homem" id="rhomem">
+    <label for="rhomem">homem</label>
+    <input type="radio" name="genero" value="mulher" id="rmulher">
+    <label for="rmulher">mulher</label>
+    <input type="radio" name="genero" value="outro" id="routro">
+    <label for="routro">outro</label>
+    <br><br>
+
+    <p>Gostos Pessoais:</p>
+    <input type="checkbox" name="gosto" value="bike" id="gbike">
+    <label for="gbike">Bike</label>
+
+    <input type="checkbox" name="gosto" value="comida" id="gcomida">
+    <label for="gcomida">Comida</label>
+
+    <input type="checkbox" name="gosto" value="patins" id="gpatins">
+    <label for="gpatins">Patins</label>
+    <br><br>
+
+    <label>Carro</label>
+    <select name="carro" id="selectcarro">
+        <option value="Nissan">Sentra</option>
+        <option value="Toyota">Corolla</option>
+        <option value="Honda">Civic</option>
+    </select>
+    <br><br>
+
+    <label id="txtfalevc">Fale mais sobre você:</label>
+    <br>
+    <textarea name="fale_vc" id="txtfalevc" rows="8" cols="80" maxlength="140" 
+    placeholder="Teste de placeholder.">Eu sou...</textarea>
+    <br><br>
+
+    <label for="inputfoto">Foto linda:</label>
+    <input type="file" name="foto" id="inputfoto" multiple="" accept="image/*">
+    <!-- Accpet, ou formatos separados por virgula, ex: .pdf, . jpeg,.png-->
+    <br><br>
+
+    <input type="reset" value="Limpar campos">
+    <button type="submit">Enviar o formulário</button>
+    <button type="button">Eu sou um botão</button>      
+</form>
+</body>
+</html>

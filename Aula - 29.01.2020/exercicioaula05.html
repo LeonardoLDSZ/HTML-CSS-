@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercicio Aula 05</title>
+    <link rel="stylesheet" type="text/css" href="exercicioaula05.css">
+</head>
+
+<body>
+    <h1>Novo Cliente</h1>
+    <h2><b>Aviso:</b>Aprovação de novos cadastros somente após 24h.</h2>
+
+    <form>
+        <label for="inputnome">Nome:</label>
+        <br>
+        <input type="text" name="nome" id="inputnome" placeholder="Ex: Fulano" required="">
+        <br><br>
+
+        <label for="inputsobrenome">Sobrenome:</label>
+        <br>
+        <input type="text" name="sobrenome" id="inputsobrenome" placeholder="Ex: Silveira" required="">
+        <br><br>
+
+        <label for="inputdtnascimento">Data de Nascimento:</label>
+        <br>
+
+        <input type="date" name="dtnascimento" id="inputdtnascimento" required="">
+        <br><br>
+
+        <label for="inputnrdependentes">Número de dependentes</label>
+        <br>
+        <input type="number" name="nr_dependentes" id="inputdependentes" placeholder="Ex: 5" value="" min="0" max="30"
+            step="1">
+        <br><br>
+
+        <label for="inputfoto">Foto:</label>
+        <br>
+        <input type="file" name="foto" id="inputfoto" accept="image/*">
+        <br><br>
+
+        <label for="inputemail">E-mail:</label>
+        <br>
+        <input type="text" name="email" id="inputemail" placeholder="goku@gmail.com" required="">
+        <br><br>
+
+        <label for="inputgenero">Gênero:</label>
+        <br>
+        <select name="genero" id="selectgenero">
+            <option>Selecione uma opção de genero</option>
+            <option value="Homem">Homem</option>
+            <option value="Mulher">Mulher</option>
+            <option value="Outro">Outro</option>
+        </select>
+        <br><br>
+
+        <label for="txtobservacoes">Observações:</label>
+        <br>
+        <textarea name="observacoes" id="txtobservacoes" rows="4" cols="80" maxlength="140"
+            placeholder="testePlaceholder">Olá, me chamo Fulano e gosto de Drift!</textarea>
+        <br><br>
+
+        <p>Gênero</p>
+        <input type="radio" name="genero" value="homem" id="ghomem">
+        <label for="ghomem">Homem</label>
+        <br>
+
+        <input type="radio" name="genero" value="mulher" id="gmulher">
+        <label for="gmulher">Mulher</label>
+        <br>
+        <input type="radio" name="genero" value="outro" id="goutro">
+        <label for="goutro">Outro</label>
+        <br><br>
+
+        <p>Método de Pagamento</p>
+        <input type="checkbox" name="pgto" value="cheque" id="gcheque">
+        <label for="gcheque">Cheque</label>
+        <br>
+        <input type="checkbox" name="pgto" value="boleto" id="gboleto">
+        <label for="gboleto">Boleto 28 dias</label>
+        <br>
+        <input type="checkbox" name="pgto" value="boleto4" id="gboleto4">
+        <label for="gboleto4">Boleto 45 dias</label>
+        <br><br>
+        
+
+        <input type="reset" value="Resetar Dados">
+        <button type="submit">Salvar dados</button>
+
+    </form>
+</body>
+
+</html>

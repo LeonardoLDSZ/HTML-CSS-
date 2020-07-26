@@ -1,0 +1,19 @@
+table, td, th {
+border-width: 1px;
+border-color: red;
+border-style: solid; /*dotted dashed solid double */
+border-collapse: collapse; /*separate - collapse */
+
+}
+/*border: 1px red solid */
+caption {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-left-color: red;
+    border-right-color: red;
+    border-top-color:red;
+    border-left-style:solid;
+    border-right-style:solid;
+    border-top-style: solid;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <tittle>Aula 04</tittle>
+    <link rel="stylesheet" type="text/css" href="aula04.css">
+</head>
+
+<body>
+    <table> <!-- TABELAS -->
+        <caption>Tabela de Cadastro</caption> <!-- Titulo da tabela -->
+        <thead> <!-- Cabeçalho da tabela -->
+            <tr> <!-- TR Table row - linha da tabela --> 
+                <th>Código</th> <!-- TH - Header CELL - Celula de cabeçalho -->
+                <th>Nome</th>
+                <th>E-mail primario</th>
+                <th>E-mail secundário</th>
+            </tr>
+        </thead>
+    <tbody> <!-- Corpo da Tabela -->
+        <tr> <!-- Um tr para cada linha-->
+            <td>1</td>
+            <td>Leonardo</td>
+            <td>E-mail primário</td>
+            <td>E-mail secundário</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Goku</td>
+            <td colspan="2"> goku@gmail.com</td> <!-- Celula mesclada horizontalmente -->
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Vegeta</td>
+            <td>vegeta@sayajin.com</td>
+            <td rowspan="2", c>Não tem</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Picollo</td>
+            <td>picollo@namek.com</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>

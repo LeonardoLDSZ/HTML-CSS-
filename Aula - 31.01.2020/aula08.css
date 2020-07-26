@@ -1,0 +1,41 @@
+header {
+
+background-color: pink;
+width: 100px; /*largura pré estipulada */
+min-width: 30%; /* minima largura */
+max-width: 30%; /*maxima largura */
+min-height: 20px; /*minima altura */
+max-height: 100px; /* maxima alutra */
+height: 100px; /* altura pré estipulada */
+float: left;
+
+}
+
+nav {
+    float: left;
+    width: 70%;
+    background-color: lightgreen;
+    height: 100px;
+}
+
+article {
+    float:left;
+    width: 33.33%;
+    background-color: silver;
+}
+
+section {
+    float: left;
+    width: 33.33%;
+    background-color: darkgreen;
+    box-shadow:10px 10px 20px rgba(0,0,255,0.50);
+    /* deslocamento horizontal, vertical, blur e cor */
+}
+
+
+footer {
+float: left;
+width: 33.33%;
+background-color: red;
+
+}

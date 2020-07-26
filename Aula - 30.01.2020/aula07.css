@@ -1,0 +1,45 @@
+* {
+
+    font-family: 'arial';
+    font-weight: bolder;
+}
+
+img {
+    border: 3px solid white;
+    border-radius: 50px; /*altera todos os cantos */
+    border-top-left-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 80%;
+
+}
+
+body {
+
+    background-image: url("media/img/pattern.png");
+    background-repeat: no-repeat; /*repeat (horizontal e vertical), repeat-x (horizontal) e repeat-y (vertical) */
+    background-size: 18%;
+    background-position: center center;
+
+    /*
+	Possiveis valores
+	- left top
+	- left center
+	- left bottom
+	- right top
+	- right center
+	- right bottom
+	- center top
+	- center center
+	- center bottom
+        */
+        
+/* gradiente, sendo priemeiro parametro a direção, e os demais cores */
+	/*background-image: linear-gradient(to right, red, blue, green, orange); */ 
+background-color: rgb(150,255,100);
+}
+
+figcaption {
+	color: black;
+}
+
